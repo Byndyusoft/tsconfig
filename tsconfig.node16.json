@@ -1,0 +1,24 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    // Project Options
+    "declaration": true,
+    "declarationMap": true,
+    "importHelpers": true,
+    "incremental": true,
+    "removeComments": true,
+    "sourceMap": true,
+    // Linter Checks
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // Experimental
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    // Advanced
+    "allowUnreachableCode": false,
+    "newLine": "lf",
+    "preserveConstEnums": true
+  }
+}
