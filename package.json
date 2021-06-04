@@ -1,17 +1,20 @@
 {
-  "name": "@byndyusoft/base-template",
+  "name": "@byndyusoft/tsconfig",
   "version": "0.0.0-development",
-  "description": "Base template for Node.js packages",
-  "homepage": "https://github.com/Byndyusoft/node-base-template#readme",
+  "description": "TSConfig for Byndyusoft projects",
+  "homepage": "https://github.com/Byndyusoft/tsconfig#readme",
   "bugs": {
-    "url": "https://github.com/Byndyusoft/node-base-template/issues"
+    "url": "https://github.com/Byndyusoft/tsconfig/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Byndyusoft/node-base-template.git"
+    "url": "https://github.com/Byndyusoft/tsconfig.git"
   },
   "license": "MIT",
   "author": "Byndyusoft",
+  "files": [
+    "tsconfig*.json"
+  ],
   "scripts": {
     "build": "echo '(・_・)ノ'",
     "lint": "yarn run lint:markdown && yarn run lint:prettier",
@@ -24,6 +27,11 @@
     "postpublish": "pinst --enable",
     "prepublishOnly": "pinst --disable",
     "test:cov": "echo '╮(˘､˘)╭'"
+  },
+  "dependencies": {
+    "@tsconfig/node12": "^1.0.7",
+    "@tsconfig/node14": "^1.0.0",
+    "@tsconfig/node16": "^1.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
