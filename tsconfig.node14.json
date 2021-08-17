@@ -6,7 +6,6 @@
     "declarationMap": true,
     "importHelpers": true,
     "incremental": true,
-    "removeComments": true,
     "sourceMap": true,
     // Linter Checks
     "noFallthroughCasesInSwitch": true,
