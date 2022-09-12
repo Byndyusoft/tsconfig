@@ -50,6 +50,14 @@ or
 }
 ```
 
+or
+
+```json
+{
+  "extends": "@byndyusoft/tsconfig/tsconfig.node18.json"
+}
+```
+
 ## Maintainers
 
 - [@Byndyusoft/owners](https://github.com/orgs/Byndyusoft/teams/owners) <<github.maintain@byndyusoft.com>>
