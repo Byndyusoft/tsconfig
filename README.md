@@ -33,7 +33,23 @@ or
 
 ```json
 {
+  "extends": "@byndyusoft/tsconfig/tsconfig.app.node16.json"
+}
+```
+
+or
+
+```json
+{
   "extends": "@byndyusoft/tsconfig/tsconfig.node18.json"
+}
+```
+
+or
+
+```json
+{
+  "extends": "@byndyusoft/tsconfig/tsconfig.app.node18.json"
 }
 ```
 
