@@ -9,7 +9,7 @@ TSConfig for Byndyusoft projects
 
 ## Requirements
 
-- Node.js v14 LTS or later
+- Node.js v16 LTS or later
 - Yarn
 
 ## Install
@@ -21,22 +21,6 @@ yarn add -D @byndyusoft/tsconfig
 ## Usage
 
 Add to your `tsconfig.json`:
-
-```json
-{
-  "extends": "@byndyusoft/tsconfig/tsconfig.node12.json"
-}
-```
-
-or
-
-```json
-{
-  "extends": "@byndyusoft/tsconfig/tsconfig.node14.json"
-}
-```
-
-or
 
 ```json
 {
