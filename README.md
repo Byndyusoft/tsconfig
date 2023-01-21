@@ -10,6 +10,7 @@ TSConfig for Byndyusoft projects
 ## Requirements
 
 - Node.js v16 LTS or later
+- TypeScript v4.7 or later
 - Yarn
 
 ## Install
