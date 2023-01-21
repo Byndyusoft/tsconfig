@@ -1,23 +1,23 @@
 {
   "extends": "@tsconfig/node18/tsconfig.json",
   "compilerOptions": {
-    // Project Options
-    "declaration": true,
-    "declarationMap": true,
-    "importHelpers": true,
-    "incremental": true,
-    "sourceMap": true,
-    // Linter Checks
+    // Type Checking
+    "allowUnreachableCode": false,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    // Experimental
+    // Emit
+    "declaration": true,
+    "declarationMap": true,
+    "importHelpers": true,
+    "newLine": "lf",
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    // Language and Environment
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    // Advanced
-    "allowUnreachableCode": false,
-    "newLine": "lf",
-    "preserveConstEnums": true
+    // Projects
+    "incremental": true
   }
 }
