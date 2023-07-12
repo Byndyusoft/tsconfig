@@ -39,7 +39,7 @@ __metadata:
     "@commitlint/cli": "npm:17.4.2"
     "@commitlint/config-conventional": "npm:17.4.2"
     "@tsconfig/node16": "npm:^1.0.3"
-    "@tsconfig/node18": "npm:^1.0.1"
+    "@tsconfig/node18": "npm:^18.0.0"
     husky: "npm:8.0.3"
     lint-staged: "npm:13.1.0"
     markdownlint-cli: "npm:0.33.0"
@@ -844,10 +844,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node18@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@tsconfig/node18@npm:1.0.1"
-  checksum: ec5a7916499125fbd4ea671e542fd5c3f66d5eda91a60e1f8b8beb5218c3ac780020f82b43d6e683ee09923f3ea3ee62e828626edaa10652e10c032ac716c47d
+"@tsconfig/node18@npm:^18.0.0":
+  version: 18.2.0
+  resolution: "@tsconfig/node18@npm:18.2.0"
+  checksum: d319d892fafd32a5985c5bda5c96de91d0aff22f81e6ab38daec40bceda1a8ca95851df48d9ab81e7e6770fa5ce54175417f4ad58b6de9534d4a47de27db7a2e
   languageName: node
   linkType: hard
 
