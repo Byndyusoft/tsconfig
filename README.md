@@ -23,6 +23,8 @@ yarn add -D @byndyusoft/tsconfig
 
 Add to your `tsconfig.json`:
 
+### Node 16
+
 ```json
 {
   "extends": "@byndyusoft/tsconfig/tsconfig.node16.json"
@@ -37,7 +39,7 @@ or
 }
 ```
 
-or
+### Node 18
 
 ```json
 {
@@ -51,6 +53,23 @@ or
 {
   "extends": "@byndyusoft/tsconfig/tsconfig.app.node18.json"
 }
+```
+
+### Node 20
+
+```json
+{
+  "extends": "@byndyusoft/tsconfig/tsconfig.node20.json"
+}
+```
+
+or
+
+```json
+{
+  "extends": "@byndyusoft/tsconfig/tsconfig.app.node20.json"
+}
+
 ```
 
 ## Maintainers
