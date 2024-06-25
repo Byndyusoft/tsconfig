@@ -69,7 +69,6 @@ or
 {
   "extends": "@byndyusoft/tsconfig/tsconfig.app.node20.json"
 }
-
 ```
 
 ## Maintainers
