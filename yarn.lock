@@ -41,7 +41,7 @@ __metadata:
     "@tsconfig/node16": "npm:^1.0.3"
     "@tsconfig/node18": "npm:^1.0.1"
     "@tsconfig/node20": "npm:^20.1.4"
-    husky: "npm:8.0.3"
+    husky: "npm:9.1.6"
     lint-staged: "npm:13.1.0"
     markdownlint-cli: "npm:0.33.0"
     pinst: "npm:3.0.0"
@@ -2435,12 +2435,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:8.0.3":
-  version: 8.0.3
-  resolution: "husky@npm:8.0.3"
+"husky@npm:9.1.6":
+  version: 9.1.6
+  resolution: "husky@npm:9.1.6"
   bin:
-    husky: lib/bin.js
-  checksum: 016ab53f21f39af1b2387559faa9cb6e2bbbe6d3cccd64c186efe204ca4634fc11dca369da9aabe7cde4293573abe12f9b7251f20bef39ea33d8e1e8f0847550
+    husky: bin.js
+  checksum: 436fa439fddddf193d9013bafb4c6616ab122f4e0d742dafc3d2fe287f891a0de64c782e6f7002ab11762174de0959cda1ed5953232baf57e305d897658ea389
   languageName: node
   linkType: hard
 
