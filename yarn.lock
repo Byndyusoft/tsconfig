@@ -38,7 +38,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:17.4.2"
     "@commitlint/config-conventional": "npm:17.4.2"
-    "@tsconfig/node16": "npm:^1.0.3"
+    "@tsconfig/node16": "npm:^16.0.0"
     "@tsconfig/node18": "npm:^1.0.1"
     "@tsconfig/node20": "npm:^20.1.4"
     "@tsconfig/node22": "npm:^22.0.0"
@@ -839,10 +839,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node16@npm:^1.0.2, @tsconfig/node16@npm:^1.0.3":
+"@tsconfig/node16@npm:^1.0.2":
   version: 1.0.3
   resolution: "@tsconfig/node16@npm:1.0.3"
   checksum: 4280081089783dfeab00e5bc18ff55e11e8e4577d4626f34730a062c99ec4136fe6c2036e6f20ebe50b1c3e01bc29db6e2cfa9541a7b6dc99825ccbe8f7f8395
+  languageName: node
+  linkType: hard
+
+"@tsconfig/node16@npm:^16.0.0":
+  version: 16.1.3
+  resolution: "@tsconfig/node16@npm:16.1.3"
+  checksum: c3088e74537f27de5cdad2b3c3cf5e8475671a8b00f9a4aaebe7db73cdc22569b245dd4dff0cd3c819382651573dbb31fe4ac47bd516a6a10bb646c4c8f13f1c
   languageName: node
   linkType: hard
 
