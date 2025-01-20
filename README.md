@@ -71,6 +71,22 @@ or
 }
 ```
 
+### Node 22
+
+```json
+{
+  "extends": "@byndyusoft/tsconfig/tsconfig.node22.json"
+}
+```
+
+or
+
+```json
+{
+  "extends": "@byndyusoft/tsconfig/tsconfig.app.node22.json"
+}
+```
+
 ## Maintainers
 
 - [@Byndyusoft/owners](https://github.com/orgs/Byndyusoft/teams/owners) <<github.maintain@byndyusoft.com>>
