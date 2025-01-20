@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@tsconfig/node16": "^1.0.3",
-    "@tsconfig/node18": "^1.0.1",
+    "@tsconfig/node18": "^18.0.0",
     "@tsconfig/node20": "^20.1.4",
     "@tsconfig/node22": "^22.0.0"
   },
